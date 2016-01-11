@@ -1,0 +1,10 @@
+language: cpp
+
+compiler:
+  - gcc
+before_script:
+  - sudo apt-get install cmake 
+  - mkdir build
+  - cd build
+  - cmake .. 
+script: make  
